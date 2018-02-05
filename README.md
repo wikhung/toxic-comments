@@ -20,3 +20,4 @@ notebook has example of such improvement.
 3. Data augmentation technique improved the resutls slightly. Need more tuning of the augmentation probability to observe the effects.
 4. The data augmentation techniques implemented here are rather naive. Probably can replace the augmentation technique with ones that
 rely on more usual human error (e.g., replace "t" with "r" instead of just a random alphabet"
+5. Character encoding is done at the senetence level. I tried encoding the whole comments or individual words but sentence level encoding returned the best performance on leaderboard.
